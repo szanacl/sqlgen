@@ -1,0 +1,30 @@
+{
+  "tarifas_estornadas": {
+    "columns": {
+      "id": "number",
+      "agencia": "string",
+      "valor": "number",
+      "data_estorno": "date",
+      "motivo": "string"
+    },
+    "synonyms": [
+      "estornos",
+      "tarifas estornadas",
+      "ressarcimentos",
+      "refunds"
+    ]
+  },
+  "clientes": {
+    "columns": {
+      "cpf": "string",
+      "nome": "string",
+      "agencia": "string"
+    },
+    "synonyms": [
+      "pessoas",
+      "clientes",
+      "usuários",
+      "membros"
+    ]
+  }
+}
